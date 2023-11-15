@@ -1,0 +1,18 @@
+primeiro eh organizar as pastas do Site
+estrutura do site:
+assets (recursos)
+   css
+   img
+   js
+   mov
+dist
+site
+    content
+    docs
+
+index.html
+
+****** Download
+Link - para baixar o git
+    https://git-scm.com/downloads
+    depois de baixar - botão direito do mouse git bash here
