@@ -1,0 +1,5 @@
+eval "$(ssh-agent -s)"
+ssh-add /DRIVE/arquivoSSHGithub		(exemplo: ssh-add /d/gitcloudeducat)
+git add .
+git commit -m "mensagem"
+git push
