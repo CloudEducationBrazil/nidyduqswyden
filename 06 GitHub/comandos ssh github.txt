@@ -1,0 +1,20 @@
+ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+ssh-keygen -t ed25519 -C "cloudeducationbrazil@gmail.com"
+
+ssh-agent
+eval "$(ssh-agent -s)"
+
+ssh-add arquivo gerado (sem o pub)
+
+Depois entrar na conta do Github e
+registrar a key ssh do arquivo.PUB gerado
+
+Nota: Se sistema legado, 
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Para postar no github
+eval "$(ssh-agent -s)"
+ssh-add /d/gitcloudeducat
